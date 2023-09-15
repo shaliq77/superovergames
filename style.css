@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-image: url("https://images.unsplash.com/photo-1585409677983-0f6c41ca9c3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80");
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+  color: rgb(241, 240, 240);
+}
+
+#logo {
+  width: 10vw;
+  margin-top: 5vh;
+}
+
+h1 {
+  font-size: 90px;
+  font-weight: 1000;
+}
+
+section {
+  margin: 10vh auto;
+}
+
+#buttons {
+  width: 50%;
+}
+
+#ball1 {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(236, 61, 61);
+  margin: 5px;
+  color: black;
+  line-height: 30px;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+  padding: 10px;
+}
+#ball2 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(236, 61, 61);
+    margin: 5px;
+    color: black;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
+  }
+  #ball3 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(236, 61, 61);
+    margin: 5px;
+    color: black;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
+  }
+  #ball4 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(236, 61, 61);
+    margin: 5px;
+    color: black;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
+  }
+  #ball5 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(236, 61, 61);
+    margin: 5px;
+    color: black;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
+  }
+  #ball6 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(236, 61, 61);
+    margin: 5px;
+    color: black;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
+  }
+  #ball7 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(236, 61, 61);
+    margin: 5px;
+    color: black;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
+  }
+  #ball9 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(236, 61, 61);
+    margin: 5px;
+    color: black;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
+  }
+  #ball10{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(236, 61, 61);
+    margin: 5px;
+    color: black;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
+  }
+  #ball11{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(236, 61, 61);
+    margin: 5px;
+    color: black;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
+  }
+  #ball12{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(236, 61, 61);
+    margin: 5px;
+    color: black;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
+  }
+  #ball13{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(236, 61, 61);
+    margin: 5px;
+    color: black;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
+  }
+
+.scoreboard {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.score {
+  padding: 30px;
+  height: auto;
+  border-radius: 20px;
+  margin: 0 50px;
+}
+
+.button {
+  width: 100px;
+  font-size: 1.5em;
+  cursor: pointer;
+  margin: 0 30px;
+}
+
+#team1 {
+  display: inline-block;
+  background-color: #899ead;
+}
+
+#team2 {
+  display: inline-block;
+  background-color: #669470;
+}
+
+#team1-superover,
+#team2-superover {
+  margin: 20px;
+}
